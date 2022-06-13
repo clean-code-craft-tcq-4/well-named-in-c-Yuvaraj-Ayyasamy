@@ -1,5 +1,5 @@
 #include "colorCode_if.h"
-#include "getColorCode.h"
+//#include "getColorCode.h"
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) 
 {
