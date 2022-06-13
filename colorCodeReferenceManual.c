@@ -17,7 +17,7 @@ void printColorCodeReferenceManual(void)
     {
         for(minorColorCount = 0; minorColorCount < numberOfMinorColors; minorColorCount++)
         {
-            printf("%d \t|\t%s \t|\t%s|\n",PairNumber++, MajorColors[majorColorCount], MinorColors[minorColorCount]);
+            printf("%d \t|\t%s \t|\t%s|\n",PairNumber++, majorColors[majorColorCount], minorColors[minorColorCount]);
         }
     }
 }
