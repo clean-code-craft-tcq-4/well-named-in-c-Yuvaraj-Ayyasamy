@@ -1,4 +1,4 @@
-#include "colorCode_if.h"
+/*#include "colorCode_if.h"
 
 void printColorCodeReferenceManual(void)
 {
@@ -17,4 +17,4 @@ void printColorCodeReferenceManual(void)
             printf("%d \t|\t%s \t|\t%s|\n",PairNumber++, majorColors[majorColorCount], minorColors[minorColorCount]);
         }
     }
-}
+}*/
