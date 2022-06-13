@@ -1,8 +1,8 @@
-extern const char* majorColor[];
-extern const char* minorColor[];
-extern int numberOfMajorColors;
-extern int numberOfMinorColors;
+const char* majorColor[];
+const char* minorColor[];
+int numberOfMajorColors;
+int numberOfMinorColors;
 
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
-extern ColorPair GetColorFromPairNumber(int pairNumber);
-extern int GetPairNumberFromColor(const ColorPair* colorPair);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
+ColorPair GetColorFromPairNumber(int pairNumber);
+int GetPairNumberFromColor(const ColorPair* colorPair);
