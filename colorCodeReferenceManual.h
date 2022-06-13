@@ -1,1 +1,1 @@
-extern void generateColorCodeReferenceManual(void);
+void generateColorCodeReferenceManual(void);
