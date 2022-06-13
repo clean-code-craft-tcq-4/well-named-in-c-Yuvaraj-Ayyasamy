@@ -1,17 +1,17 @@
-#include "colorCodeDefines.h"
+#include "colorCode_if.h"
 #include "getColorCode.h"
 
-const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
+const char* MajorColor[] = {"White", "Red", "Black", "Yellow", "Violet"};
 
-const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+const char* MinorColor[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
-int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
+int numberOfMajorColors = sizeof(MajorColor) / sizeof(MajorColor[0]);
 
-int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+int numberOfMinorColors = sizeof(MinorColor) / sizeof(MinorColor[0]);
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) 
 {
-    sprintf(buffer, "%s %s",MajorColorNames[colorPair->majorColor],MinorColorNames[colorPair->minorColor]);
+    sprintf(buffer, "%s %s",MajorColor[colorPair->majorColor],minorColor[colorPair->minorColor]);
 }
 
 ColorPair GetColorFromPairNumber(int pairNumber) {
