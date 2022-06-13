@@ -30,13 +30,13 @@ void printColorCodeReferenceManual(void)
 
     printf("\n25 pair Color Code Reference manual \n");
     printf("\n---------------------------------------- \n");
-    printf("Pair No. | Major Color | Minor Color |");
+    printf("| Pair No. | Major Color | Minor Color |");
     printf("\n---------------------------------------- \n");
     for(majorColorIndex = 0; majorColorIndex < numberOfMajorColors; majorColorIndex++)
     {
         for(minorColorIndex = 0; minorColorIndex < numberOfMinorColors; minorColorIndex++)
         {
-            printf("%d \t|\t%s \t|\t%s \t|\n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
+            printf("|   %d \t|   %s \t|   %s \t|\n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
         }
     }
 }
