@@ -1,7 +1,4 @@
 #include "colorCode_if.h"
-//#include "getColorCode.h"
-//#include "colorCodeReferenceManual.h"
-
 
 void printColorCodeReferenceManual(void)
 {
