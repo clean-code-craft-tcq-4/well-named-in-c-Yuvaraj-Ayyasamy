@@ -1,1 +1,1 @@
-void printColorCodeReferenceManual(void);
+// void printColorCodeReferenceManual(void);
