@@ -21,3 +21,22 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors + colorPair->minorColor + 1;
 }
+
+void printColorCodeReferenceManual(void)
+{
+    int majorColorIndex = 0;
+    int minorColorIndex = 0;
+    int PairNumber = 1;
+
+    printf("\n25 pair Color Code Reference manual \n");
+    printf("\n---------------------------------------- \n");
+    printf("Pair No.\t|Major Color \t|Minor Color|\n");
+    printf("\n---------------------------------------- \n");
+    for(majorColorIndex = 0; majorColorIndex < numberOfMajorColors; majorColorIndex++)
+    {
+        for(minorColorIndex = 0; minorColorIndex < numberOfMinorColors; minorColorIndex++)
+        {
+            printf("%d \t|\t%s \t|\t%s|\n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
+        }
+    }
+}
