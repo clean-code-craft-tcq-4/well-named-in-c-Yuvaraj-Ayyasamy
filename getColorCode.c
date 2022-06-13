@@ -24,8 +24,8 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
 
 void printColorCodeReferenceManual(void)
 {
-    int majorColorIndex = 0;
-    int minorColorIndex = 0;
+    int majorColorIndex;
+    int minorColorIndex;
     int PairNumber = 1;
 
     printf("\n25 pair Color Code Reference manual \n");
@@ -36,7 +36,9 @@ void printColorCodeReferenceManual(void)
     {
         for(minorColorIndex = 0; minorColorIndex < numberOfMinorColors; minorColorIndex++)
         {
-            printf("|   %d \t|   %s \t|   %s \t|\n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
+            printf("|   %d \t  |  %s\t|  %s\t|\n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
         }
+        printf("\n---------------------------------------- \n");
     }
+    printf("\n---------------------------------------- \n");
 }
