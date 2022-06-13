@@ -1,5 +1,5 @@
-#include "colorCodeDefines.h"
-#include "colorCodeTranslate.h"
+#include "colorCode_if.h"
+#include "getColorCode.h"
 #include "colorCodeTest.h"
 
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor)
